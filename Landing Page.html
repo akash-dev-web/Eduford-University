@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduFord University</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2e0bf0f29c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+ </head>
+ <body>
+  <div class="landing-page">
+    <section class="head-land">
+        <div class="row-land">
+        <a href="index.html"><img src="images/logo.png"></a>
+        <p class="question">QUESTIONS? CALL US: +91-12345-12345</p>
+        </div>
+    <div class="promo">
+        <h3>WANT TO LEARN SOMETHING NEW? <br/> <h1>OUR EDUFORD  UNIVERSITY <br/>CAN HELP</h1></h3>
+    </div>
+    <div class="apply">
+        <a href="Register Now.html">REGISTER NOW</a>
+    </div>
+ </section>
+ <section class="content-slider-land">
+    <h1>WELCOME</h1>
+    <p>FOLLOW YOUR DREAMS</p>
+    <div class="slideshow-container">
+
+ <div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="images/university1.jpg" style="width:100%">
+  <div class="text">Our Campus</div>
+ </div>
+ <div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="images/library3.jpg" style="width:100%">
+  <div class="text">World Class Library</div>
+ </div>
+ <div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="images/soccer1.jpg" style="width:100%">
+  <div class="text">Largest Playgorund</div>
+ </div>
+ <div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="images/meeting.jpg" style="width:100%">
+  <div class="text">Share Your Idea</div>
+ </div>
+ <div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="images/background1.jpg" style="width:100%">
+  <div class="text">Enjoy Your Life at Fullest</div>
+ </div>
+
+ <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+ <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+ </div>
+ <br>
+ <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span> 
+ </div>
+ </section>
+ <section class="content-process-land">
+    <h1>EASY JOINING PROCESS</h1>
+    <div class="row-row-land">
+    <div class="num-land">
+        <h1>1</h1>
+        <h3>REACH OUT TO US</h3>
+        <p>Search for EduFord & Just click the "Register Now" button</p>
+    </div>
+    <div class="num-land">
+        <h1>2</h1>
+        <h3>FILL THE FORM</h3>
+        <p>Fill up the registration form with the valid information</p>
+    </div>
+    <div class="num-land">
+        <h1>3</h1>
+        <h3>WELCOME TO EDUFORD</h3>
+        <p>Congrtulations!! You are now a part of our university</p>
+    </div>
+    </div>
+ </section>
+
+ <div class="body-body">
+  <footer>
+      <div class="row-land-land">
+          <div class="col">
+              <img src="images/logo.png" alt="Logo" class="logo">
+              <p> Join Our Campus today & make your future bright. EduFord is the World's Largest Uiversity with the best services</p>
+          </div>
+          <div class="col">
+              <h3>OFFICE <div class="underline"><span></span></div></h3>
+              <p>XYZ Road</p>
+              <p>ABC Building, Nalagarh</p>
+              <p>Himachal, PIN 174101, India</p>
+              <p class="email-ID">info@eduford.org</p>
+              <h4>+91 - 1023444646</h4>
+          </div>
+          <div class="col">
+              <div class="links-nav">
+              <ul>
+                  <h3>Links <div class="underline"><span></span></div></h3>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="course.html">COURSE</a></li>
+                  <li><a href="blog.html">BLOG</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+                  <li><a href="Sign In.html">LOGIN</a></li>
+             </ul>
+             </div>
+          </div>
+          <div class="col">
+              <h3>Question? <div class="underline"><span></span></div></h3>
+              <form action="index.html" class="form-footer">
+                  <i class="fa fa-envelope"></i>
+                  <input type="email" placeholder="Enter Your Email Id" required>
+                  <button type="submit"><i class="fa fa-arrow-right"></i></button>
+              </form>
+              <div class="social-media">
+                  <i class="fa fa-facebook"></i>
+                  <i class="fa fa-twitter"></i>
+                  <i class="fa fa-whatsapp"></i>
+                  <i class="fa fa-linkedin"></i>
+                  <i class="fa fa-youtube"></i>
+              </div>
+          </div>
+      </div>
+     </footer>
+      </div>
+  </div>
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+</html>
